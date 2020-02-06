@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		38670AEC23E3CB300028395C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38670AEB23E3CB300028395C /* AppDelegate.swift */; };
 		38670AEE23E3CB300028395C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38670AED23E3CB300028395C /* SceneDelegate.swift */; };
-		38670AF023E3CB300028395C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38670AEF23E3CB300028395C /* ViewController.swift */; };
+		38670AF023E3CB300028395C /* FriendsTableViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38670AEF23E3CB300028395C /* FriendsTableViewControllers.swift */; };
 		38670AF323E3CB300028395C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38670AF123E3CB300028395C /* Main.storyboard */; };
 		38670AF523E3CB320028395C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38670AF423E3CB320028395C /* Assets.xcassets */; };
 		38670AF823E3CB320028395C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38670AF623E3CB320028395C /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		38670AE823E3CB300028395C /* HobbyTracker (iOSPT5).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HobbyTracker (iOSPT5).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38670AEB23E3CB300028395C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38670AED23E3CB300028395C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		38670AEF23E3CB300028395C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38670AEF23E3CB300028395C /* FriendsTableViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewControllers.swift; sourceTree = "<group>"; };
 		38670AF223E3CB300028395C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38670AF423E3CB320028395C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38670AF723E3CB320028395C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +37,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3817A57E23E929C9004D86A6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				38670AEB23E3CB300028395C /* AppDelegate.swift */,
+				38670AED23E3CB300028395C /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		38670ADF23E3CB300028395C = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +65,8 @@
 		38670AEA23E3CB300028395C /* HobbyTracker (iOSPT5) */ = {
 			isa = PBXGroup;
 			children = (
-				38670AEB23E3CB300028395C /* AppDelegate.swift */,
-				38670AED23E3CB300028395C /* SceneDelegate.swift */,
-				38670AEF23E3CB300028395C /* ViewController.swift */,
+				3817A57E23E929C9004D86A6 /* Resources */,
+				38670AEF23E3CB300028395C /* FriendsTableViewControllers.swift */,
 				38670AF123E3CB300028395C /* Main.storyboard */,
 				38670AF423E3CB320028395C /* Assets.xcassets */,
 				38670AF623E3CB320028395C /* LaunchScreen.storyboard */,
@@ -138,7 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38670AF023E3CB300028395C /* ViewController.swift in Sources */,
+				38670AF023E3CB300028395C /* FriendsTableViewControllers.swift in Sources */,
 				38670AEC23E3CB300028395C /* AppDelegate.swift in Sources */,
 				38670AEE23E3CB300028395C /* SceneDelegate.swift in Sources */,
 			);
